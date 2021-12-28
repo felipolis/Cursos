@@ -1,0 +1,78 @@
+#titulo{
+    color: #70e5ae;
+}
+
+#paragrafos{
+    color: blue;
+    background-image: url(imagens/fundo_wood.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.subDiv{
+    background-color: yellow;
+}
+
+.texto_verde{
+    color: green;
+}
+
+.container{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.inside{
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+}
+
+#cm{
+    background-color: blue;
+    width: 1cm;
+    height: 1cm;
+}
+
+#mm{
+    background-color: red;
+    width: 1mm;
+    height: 1mm;
+}
+
+#in{
+    background-color: blue;
+    width: 1in;
+    height: 1in;
+}
+
+#px{
+    background-color: red;
+    width: 10px;
+    height: 10px;
+}
+
+#pt{
+    background-color: blue;
+    width: 10pt;
+    height: 10pt;
+}
+
+#pc{
+    background-color: red;
+    width: 1pc;
+    height: 1pc;
+}
+
+#base{
+    height: 10px;
+    background-color: red;
+}
+
+#container{
+    background-color: blue;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}

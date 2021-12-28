@@ -1,0 +1,36 @@
+.bordaFeita{
+    border: 5px dashed blue;
+}
+
+.borda{
+    border-width: 5px 2px 10px 15px;
+    border-color: red green blue yellow;
+    border-radius: 5px;
+}
+
+
+.quadrado{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.dotted{
+    border-style: dotted;
+}
+
+.dashed{
+    border-style: dashed;
+}
+
+.solid{
+    border-style: solid;
+}
+
+.none{
+    border-style: none;
+}
+
+.hidden{
+    border-style: hidden;
+}
