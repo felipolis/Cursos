@@ -1,0 +1,2 @@
+Um navegador: Opera ou Chrome
+Um editor de texto: VScode ou SublimeText
