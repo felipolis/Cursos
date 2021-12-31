@@ -1,2 +1,4 @@
 https://www.w3schools.com
 https://fonts.google.com
+https://caniuse.com/
+https://medium.com/reprogramabr/semanticahtml5-5252b4937f0a
