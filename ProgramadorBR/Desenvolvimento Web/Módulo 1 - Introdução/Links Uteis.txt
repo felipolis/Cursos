@@ -2,3 +2,6 @@ https://www.w3schools.com
 https://fonts.google.com
 https://caniuse.com/
 https://medium.com/reprogramabr/semanticahtml5-5252b4937f0a
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://getcssscan.com/css-box-shadow-examples
+https://css-tricks.com/almanac/properties/b/box-shadow/
