@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        
+        div{
+            display: inline-block;
+            padding: 20px;
+            font-size: 2rem;
+            background-color: aquamarine;
+            color: aliceblue;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <h1 onclick="hiClick()">Clique em mim</h1>
+    <h1 onclick="console.log('Cliquei!')">Clique em mim</h1> 
+    <h1 onclick="console.log(this)">Clique em mim</h1>
+    <h1 onclick="this.style.color = 'red'">Clique em mim</h1>
+    
+    <h1>Label input</h1>
+    <input id="texto" type="text" onchange="changeH1(this)"><br>
+    <input id="texto" type="text" oninput="changeH1(this)"><br><br>
+    
+    <h1>Label div</h1>
+    <div onclick="hideH1()">Click</div>
+
+    <script>
+        function hiClick(){
+            console.log('Executando a função')
+        }
+
+        function changeH1(input){
+            let h1 = document.getElementsByTagName('h1')[4];
+            h1.innerText = input.value;
+        }
+
+        function hideH1(){
+            let h1 = document.getElementsByTagName('h1')[5];
+            h1.style.display = 'none';
+        }
+
+        /* 
+        --- Eventos HTML DOM ---
+
+        abort: Cancela a requisição atual.
+
+        afterprint: Executado após a impressão.
+
+        animationend: Executado após a animação.
+
+        animationiteration: Executado a cada iteração da animação.
+
+        animationstart: Executado antes da animação.
+
+        beforeprint: Executado antes da impressão.
+
+        beforeunload: Executado antes de sair da página.
+
+        blur: Executado quando o elemento perde o foco.
+
+        canplay: Executado quando o elemento pode ser reproduzido.
+
+        canplaythrough: Executado quando o elemento pode ser reproduzido de forma completa.
+
+        change: Executado quando o elemento é alterado.
+
+        click: Executado quando o elemento é clicado.
+
+        contextmenu: Executado quando o elemento é clicado com o botão direito do mouse.
+
+        copy: Executado quando o elemento é copiado.
+
+        cut: Executado quando o elemento é cortado.
+
+        dblclick: Executado quando o elemento é clicado duas vezes.
+
+        drag: Executado quando o elemento é arrastado.
+
+        dragend: Executado quando o elemento é arrastado.
+
+        dragenter: Executado quando o elemento é arrastado.
+
+        dragleave: Executado quando o elemento é arrastado.
+
+        dragover: Executado quando o elemento é arrastado.
+
+        dragstart: Executado quando o elemento é arrastado.
+
+        drop: Executado quando o elemento é arrastado.
+
+        durationchange: Executado quando a duração do elemento é alterada.
+
+        ended: Executado quando o elemento termina de reproduzir.
+
+        error: Executado quando ocorre um erro.
+
+        focus: Executado quando o elemento ganha o foco.
+
+        focusin: Executado quando o elemento ganha o foco.
+
+        focusout: Executado quando o elemento perde o foco.
+
+        fullscreenchange: Executado quando o elemento entra ou sai do modo de tela cheia.
+
+        fullscreenerror: Executado quando ocorre um erro ao entrar ou sair do modo de tela cheia.
+
+        hashchange: Executado quando o hash da URL é alterado.
+
+        input: Executado quando o elemento é alterado.
+
+        invalid: Executado quando o elemento é inválido.
+
+        keydown: Executado quando uma tecla é pressionada.
+
+        keypress: Executado quando uma tecla é pressionada.
+
+        keyup: Executado quando uma tecla é solta.
+
+        load: Executado quando o elemento é carregado.
+
+        loadeddata: Executado quando os dados do elemento são carregados.
+
+        loadedmetadata: Executado quando os metadados do elemento são carregados.
+
+        loadstart: Executado quando o elemento começa a ser carregado.
+
+        message: Executado quando uma mensagem é enviada.
+
+        mousedown: Executado quando o mouse é pressionado.
+
+        mouseenter: Executado quando o mouse entra no elemento.
+
+        mouseleave: Executado quando o mouse sai do elemento.
+
+        mousemove: Executado quando o mouse é movido.
+
+        mouseover: Executado quando o mouse passa por cima do elemento.
+
+        mouseout: Executado quando o mouse sai do elemento.
+
+        mouseup: Executado quando o mouse é solto.
+
+        mousewheel: Executado quando o mouse é rolado.
+
+        offline: Executado quando o elemento fica offline.
+
+        online: Executado quando o elemento fica online.
+
+        open: Executado quando o elemento é aberto.
+
+        pagehide: Executado quando a página é escondida.
+
+        pageshow: Executado quando a página é exibida.
+
+        paste: Executado quando o elemento é colado.
+
+        pause: Executado quando o elemento é pausado.
+
+        play: Executado quando o elemento é reproduzido.
+
+        playing: Executado quando o elemento é reproduzido.
+
+        popstate: Executado quando o histórico de navegação é alterado.
+
+        progress: Executado quando o progresso do elemento é alterado.
+
+        ratechange: Executado quando a taxa de reprodução do elemento é alterada.
+
+        resize: Executado quando o elemento é redimensionado.
+
+        reset: Executado quando o elemento é resetado.
+
+        scroll: Executado quando o elemento é rolado.
+
+        search: Executado quando o elemento é pesquisado.
+
+        seeked: Executado quando o elemento é pulado.
+
+        seeking: Executado quando o elemento é pulado.
+
+        select: Executado quando o elemento é selecionado.
+
+        show: Executado quando o elemento é exibido.
+
+        stalled: Executado quando o elemento está parado.
+
+        storage: Executado quando o armazenamento do elemento é alterado.
+
+        submit: Executado quando o elemento é enviado.
+
+        suspend: Executado quando o elemento é interrompido.
+
+        timeupdate: Executado quando o elemento é atualizado.
+
+        toggle: Executado quando o elemento é alternado.
+
+        touchcancel: Executado quando o toque é cancelado.
+
+        touchend: Executado quando o toque é finalizado.
+
+        touchmove: Executado quando o toque é movido.
+
+        touchstart: Executado quando o toque é iniciado.
+
+        transitionend: Executado quando a transição do elemento é finalizada.
+
+        unload: Executado quando o elemento é descarregado.
+
+        volumechange: Executado quando a volúm do elemento é alterada.
+
+        waiting: Executado quando o elemento está esperando.
+
+        wheel: Executado quando o mouse é rolado.
+
+
+
+
+
+        ---Propriedades e métodos do evento HTML DOM---  
+        altKey: Retorna true se a tecla Alt estiver pressionada.
+
+        animationName: Retorna o nome da animação atual.
+
+        bubbles: Retorna true se o evento é bubbling.
+
+        button: Retorna o botão do mouse que foi pressionado.
+
+        buttons: Retorna o botão do mouse que foi pressionado.
+
+        cancelable: Retorna true se o evento pode ser cancelado.
+
+        charCode: Retorna o código do caractere.
+
+        changedTouches: Retorna um array com os toques que foram alterados.
+
+        clientX: Retorna a coordenada X do evento.
+
+        clientY: Retorna a coordenada Y do evento.
+
+        clipboardData: Retorna os dados do clipboard.
+
+        code: Retorna o código do evento.
+
+        composed: Retorna true se o evento foi compôs.
+
+        createEvent(): Cria um evento.
+
+        ctrlKey: Retorna true se a tecla Ctrl estiver pressionada.
+
+        currentTarget: Retorna o elemento que está sendo manipulado.
+
+        data: Retorna os dados do evento.
+
+        dataTransfer: Retorna os dados do evento.
+
+        defaultPrevented: Retorna true se o evento foi previsto.
+
+        deltaX: Retorna a distância X do evento.
+
+        deltaY: Retorna a distância Y do evento.
+
+        deltaZ: Retorna a distância Z do evento.
+
+        deltaMode: Retorna o modo de distância do evento.
+
+        detail: Retorna o detalhe do evento.
+
+        elapsedTime: Retorna o tempo decorrido do evento.
+
+        eventPhase: Retorna a fase do evento.
+
+        getTargetRanges(): Retorna os intervalos de texto selecionados.
+
+        getModifierState(): Retorna um array contendo os interalos que serão afetados pela inserção ou exclusão.
+
+        inputType: Retorna o tipo de entrada do evento.
+
+        isComposing: Retorna true se o evento está sendo compôs.
+
+        isTrusted: Retorna true se o evento é confiável.
+
+        key: Retorna a tecla pressionada.
+
+        keyCode: Retorna o código da tecla pressionada.
+
+        location: Retorna a localização do evento.
+
+        lengthComputable: Retorna true se o evento é computável.
+
+        loaded: Retorna o carregamento do evento.
+
+        metaKey: Retorna true se a tecla Meta estiver pressionada.
+
+        movementX: Retorna a distância X do evento.
+
+        movementY: Retorna a distância Y do evento.
+
+        newValue: Retorna o novo valor do evento.   
+
+        newURL: Retorna a nova URL do evento.
+
+        offsetX: Retorna a distância X do evento.
+
+        offsetY: Retorna a distância Y do evento.
+
+        oldValue: Retorna o valor antigo do evento.
+
+        oldURL: Retorna a URL antiga do evento.
+
+        onemptied: Retorna o evento onemptied.
+
+        pageX: Retorna a coordenada X do evento.
+
+        pageY: Retorna a coordenada Y do evento.
+
+        persisted: Retorna true se o evento é persistido.
+
+        preventDefault(): Cancela o comportamento padrão do evento.
+
+        propertyName: Retorna o nome da propriedade do evento.
+
+        pseudoElement: Retorna o pseudo elemento do evento.
+
+        region: Retorna a região do evento.
+
+        relatedTarget: Retorna o elemento relacionado ao evento.
+
+        repeat: Retorna true se o evento é repetido.
+
+        screenX: Retorna a coordenada X do evento.
+
+        screenY: Retorna a coordenada Y do evento.
+
+        shiftKey: Retorna true se a tecla Shift estiver pressionada.
+
+        state: Retorna o estado do evento.
+
+        stopImmediatePropagation(): Cancela o comportamento padrão do evento.
+
+        stopPropagation(): Cancela o comportamento padrão do evento.
+
+        sorageArea: Retorna o armazenamento do evento.
+
+        target: Retorna o elemento que foi manipulado.
+
+        targetTouches: Retorna um array com os toques que foram manipulados.
+
+        timeStamp: Retorna o tempo do evento.
+
+        totalTime: Retorna o tempo total do evento.
+
+        touches: Retorna um array com os toques que foram manipulados.
+
+        transitionend: Retorna o evento transitionend.
+
+        type: Retorna o tipo do evento.
+
+        url: Retorna a URL do evento.
+
+        which: Retorna o botão do mouse que foi pressionado.
+
+        view: Retorna a visualização do evento.
+
+        */
+
+
+
+    </script>
+</body>
+</html>
