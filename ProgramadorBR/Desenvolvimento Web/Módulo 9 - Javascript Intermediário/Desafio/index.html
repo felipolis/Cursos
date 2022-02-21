@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/d285ba4054.js" crossorigin="anonymous"></script>
+
+    <title>To-do List</title>
+    <!-- Crie uma lista de tarefas que tenha um input para receber a tarefa, e armazene na memória utilizando o LocalStorage.
+
+    Dica: Utilize Arrays e Json -->
+</head>
+<body>
+    <main>
+
+        <div class="dayAndTime">
+            <span id="weekDay"></span>
+            <span></span>
+            <span id="hours"></span>
+        </div>
+
+        <div class="top">
+            <div class="overlay">
+                <div class="container">
+                    <div class="titleAndNumberTask">
+                        <h1>TO-DO LIST</h1>
+                        <span>Tarefas Cadastradas:</span><span id="taskNumber"></span>
+                    </div>
+                    <div class="wrapper-input-task">
+                        <div class="input">
+                            <input type="text" placeholder="Type your task here" id="content-task">
+                            <input type="button" class="addTask" value="Add">
+                        </div>
+                    </div>
+                    <div class="tasks">
+
+                    </div>
+                    <div class="del-wrapper">
+                        <input type="button" class="removeAllTasks" value="Remove Tasks">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
