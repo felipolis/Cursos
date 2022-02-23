@@ -1,0 +1,48 @@
+*{ /* Todos os elementos */
+    margin: 0;
+}
+
+.p2, h2{ /* Seletores de classe */
+    background-color: aquamarine;
+}
+
+div p{ /* Todos os elementos p dentro de div */
+    background-color: beige;
+}
+
+section > p{ /* Todos os elementos p cujo pai direto é a secion */
+    background-color: brown;
+}
+
+#head + p{ /* Elemento p que esta imediatamente logo apos o #head */
+    text-decoration: underline;
+}
+
+#head ~ p{ /* Todos os elementos p que estao apos o #head*/
+    color: blueviolet;
+}
+
+[width]{ /* Todos os elementos que possuem a propriedade width */
+    background-color: darkorange;
+
+}
+
+[width="500"]{ /* Todos os elementos que possuem a propriedade width com o valor 500 */
+    color: blue;
+}
+
+[title~="titulo"]{ /* Todos os elementos que possuem a propriedade title com o valor titulo */
+    background-color: deeppink;
+}
+
+[title^="t"]{ /* Todos os elementos que começam com a letra t */
+    color: darkred;
+}
+
+[title$="1"]{ /* Todos os elementos que terminam com a letra 1 */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+[title*="ex"]{ /* Todos os elementos que possuem a palavra ex */
+    background-color: gold;
+}
