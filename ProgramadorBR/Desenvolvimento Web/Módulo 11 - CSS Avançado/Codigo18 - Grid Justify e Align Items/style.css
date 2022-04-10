@@ -1,0 +1,42 @@
+.container{
+    height: 500px;
+    color: white;
+    background-color: gray;
+    padding: 10px;
+
+    display: grid;
+    grid-template: auto auto / auto auto auto;
+    grid-gap: 10px;
+
+    /* Pega todos os elementos que estao
+    em uma coluna modificando o posicionamento
+    desses elementos nessa coluna.*/
+    justify-items: center;
+
+    /* Pega todos os elementos que estao
+    em uma linha modificando o posicionamento
+    desses elementos nessa linha.*/
+    align-items: center;
+}
+
+.r1{
+    background-color: red;
+}
+
+.r2{
+    background-color: blue;
+}
+
+.r3{
+    background-color: green;
+}
+
+.rect{
+    width: 100px;
+    height: 100px;
+}
+
+
+/* 
+GRID GUIDE: https://css-tricks.com/snippets/css/complete-guide-grid/
+*/
