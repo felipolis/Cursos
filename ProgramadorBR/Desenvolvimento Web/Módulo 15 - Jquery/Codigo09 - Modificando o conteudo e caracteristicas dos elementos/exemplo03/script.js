@@ -1,0 +1,1 @@
+console.log($('#novo').val("Novo novo"));

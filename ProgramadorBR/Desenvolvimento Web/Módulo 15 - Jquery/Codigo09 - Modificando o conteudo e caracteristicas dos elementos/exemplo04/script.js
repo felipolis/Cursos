@@ -1,0 +1,1 @@
+console.log($('#novo').attr("name", "Item de compra"));
