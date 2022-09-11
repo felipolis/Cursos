@@ -1,0 +1,12 @@
+
+div {
+    width: 500px;
+    height: 300px;
+    background-color: rgb(240, 100, 0);
+    background-image: url("./imagens/Fundo_abstrato.jpg");
+    background-size: cover;
+}
+
+p {
+    background-color: aquamarine;
+}

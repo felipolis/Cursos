@@ -1,0 +1,17 @@
+ul {
+    border: 1px solid;
+    list-style-position: inside;
+}
+
+li {
+    border: 1px solid blue;
+}
+
+ol {
+    list-style: upper-alpha;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}

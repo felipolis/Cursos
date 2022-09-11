@@ -1,0 +1,15 @@
+.container{
+    font-size: 25px;
+}
+
+.exemplo1{
+    
+}
+
+.exemplo2{
+    font-size: 2em; /* 2 vezes seu tamanho natural (50px) */
+}
+
+.exemplo3{
+    font-size: 50px;
+}

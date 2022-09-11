@@ -1,0 +1,19 @@
+.container{
+}
+
+.exemplo1{
+
+}
+
+.exemplo2{
+    font-size: 2rem; /* 2 vezes o tamanho do elemento raiz */
+
+}
+
+.exemplo3{
+    font-size: 40px;
+}
+
+html{
+    font-size: 20px;
+}

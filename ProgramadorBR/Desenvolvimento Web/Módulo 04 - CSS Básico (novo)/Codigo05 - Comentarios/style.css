@@ -1,0 +1,23 @@
+p {
+    color: pink;
+    background-color: yellow;
+}
+
+/* Comentario de uma linha */
+
+#paragrafo1 {
+    color: red;
+    background-color: transparent;
+}
+
+/* Comentario
+        de varias
+            linhas */
+
+.fundo-azul {
+    background-color: blue;
+}
+
+.texto-amarelo {
+    color: yellow;
+}

@@ -1,0 +1,14 @@
+ul {
+    list-style: none;
+    list-style-image: url('imagens/logo-16.png');
+}
+
+
+ol {
+    list-style: upper-alpha;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}

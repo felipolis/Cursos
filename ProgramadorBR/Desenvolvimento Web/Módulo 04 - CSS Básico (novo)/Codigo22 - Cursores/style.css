@@ -1,0 +1,25 @@
+.card{
+    background-color: #eee;
+    width: 500px;
+    margin: auto;
+    padding: 30px;
+}
+
+li {
+    background-color: #cceaff;
+    border: 1px solid #5caBef;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: url('imagens/logo-16.png'), pointer;
+}
+
+ol {
+    padding: 30px;
+    list-style: upper-alpha;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}

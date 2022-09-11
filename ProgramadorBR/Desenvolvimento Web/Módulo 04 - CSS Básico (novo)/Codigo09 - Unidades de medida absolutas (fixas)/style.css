@@ -1,0 +1,23 @@
+/* 
+    cm - centímetros
+    mm - milímetros
+    in - polegadas (1 in = 96px = 2.54cm)
+    px - pixels (1px = 1/96th of 1in)
+    pt - pontos (1pt = 1/72 of 1in)
+    pc - picas (1pc = 12pt)
+*/
+
+#foto {
+    width: 3in;
+}
+
+#foto2 {
+    width: 288px;
+}
+
+#azul {
+    background-color: brown;
+    width: 500px;
+    height: 250px;
+    font-size: 100px;
+}

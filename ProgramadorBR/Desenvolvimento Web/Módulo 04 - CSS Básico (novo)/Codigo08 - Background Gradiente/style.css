@@ -1,0 +1,10 @@
+.verde {
+    height: 100px;
+    background: linear-gradient(90deg, red, blue 25%, green);
+    /* 
+    to left = 90deg
+    to right = 270deg
+    to top = 0deg
+    to bottom = 180deg
+    */
+}
