@@ -1,0 +1,7 @@
+O HTTP (Hypertext Transfer Protocol) é um protocolo de rede que é usado para transmitir informações na World Wide Web. Ele permite que um navegador da Web envie uma solicitação para um servidor da Web e que o servidor envie uma resposta de volta para o navegador. A principal função do HTTP é permitir que os usuários acessem páginas da Web e interajam com sites da Web.
+
+O HTTPS (Hypertext Transfer Protocol Secure) é uma versão segura do HTTP. Ele é usado para criptografar as informações que são transmitidas entre um navegador da Web e um servidor da Web. Isso é feito para proteger a privacidade dos usuários e garantir que as informações transmitidas não possam ser lidas ou alteradas por terceiros.
+
+O SSL (Secure Sockets Layer) é um protocolo de segurança que é usado para proteger as informações transmitidas na Internet. Ele criptografa as informações que são transmitidas entre um navegador da Web e um servidor da Web, garantindo que elas não possam ser lidas ou alteradas por terceiros.
+
+Um certificado SSL é um arquivo que é usado para estabelecer uma conexão segura entre um navegador da Web e um servidor da Web. Ele contém informações sobre o proprietário do site, o site e a autoridade de certificação que emitiu o certificado. Quando um navegador da Web se conecta a um site que possui um certificado SSL, ele verifica a validade do certificado antes de estabelecer a conexão.

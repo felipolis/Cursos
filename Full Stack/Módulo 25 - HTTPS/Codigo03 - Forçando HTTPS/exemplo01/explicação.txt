@@ -1,0 +1,15 @@
+
+
+app.use("*", (req, res, next) => {
+    if(req.headers['x-forwarded-proto'] == 'https') {
+        next();
+    } else {
+        res.redirect('https://' + req.headers.host + req.originalUrl);
+    }
+})
+
+Este código é parte de uma aplicação web que está sendo executada em um servidor. Ele está configurando um middleware que é executado para todas as rotas (porque está usando "*" como o primeiro argumento de app.use).
+
+O middleware verifica se a solicitação que está sendo feita (representada pelo objeto req) foi encaminhada usando o protocolo HTTPS. Isso é verificado lendo o cabeçalho 'x-forwarded-proto' da solicitação. Se a solicitação foi encaminhada usando HTTPS, o middleware chama o próximo middleware na cadeia de middlewares usando o método next(). Se a solicitação não foi encaminhada usando HTTPS, o middleware redireciona o usuário para a mesma URL, mas usando HTTPS em vez de HTTP, usando o método res.redirect. O método res.redirect envia uma resposta de redirecionamento para o navegador, fazendo com que o navegador carregue a nova URL.
+
+Este middleware é útil se você deseja forçar todas as solicitações a serem feitas usando HTTPS. Isso é comum em aplicações que lidam com informações confidenciais, pois o HTTPS fornece uma camada adicional de segurança, criptografando as informações enquanto elas são transmitidas na rede.

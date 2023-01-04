@@ -1,0 +1,30 @@
+Para obter um certificado SSL e redirecionar todas as chamadas HTTP para o HTTPS com o Node.js, você pode usar o módulo "ssl-root-cas" para adicionar uma raiz de confiança SSL ao seu aplicativo e o módulo "express-force-ssl" para forçar o uso de HTTPS em todas as solicitações.
+
+Primeiro, instale os módulos:
+
+____________________________________________
+$ npm install ssl-root-cas express-force-ssl
+____________________________________________
+
+Em seguida, adicione a seguinte linha no início do seu código para adicionar uma raiz de confiança SSL:
+
+____________________________________________
+$ require('ssl-root-cas').inject();
+____________________________________________
+
+Em seguida, use o módulo "express-force-ssl" para forçar o uso de HTTPS em todas as solicitações:
+____________________________________________
+const express = require('express');
+const forceSSL = require('express-force-ssl');
+
+const app = express();
+
+app.use(forceSSL);
+
+// Adicione o resto do seu código aqui
+____________________________________________
+
+
+Isso fará com que todas as solicitações HTTP sejam redirecionadas para o HTTPS automaticamente.
+
+Para obter um certificado SSL, você pode usar um provedor de certificados online, como o Let's Encrypt, ou obtê-lo de uma autoridade de certificação paga. O processo para obter um certificado pode variar dependendo do provedor que você escolher, mas geralmente envolve a criação de um pedido de assinatura de certificado (CSR), a verificação da sua identidade e a instalação do certificado no servidor da Web.

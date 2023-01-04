@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+</head>
+<body>
+    <div id="list">
+
+    </div>
+
+    <script>
+        setInterval(() => {
+            fetch('/list')
+                .then(res => res.json())
+                .then(data => {
+                    let list = "<ul>";
+                    data.map(item => {
+                        list += `<li>${item}</li>`;
+                    });
+                    list += "</ul>";
+                    document.querySelector('#list').innerHTML = list;
+                });
+        }, 1000)
+        // PROBLEMA: A cada 1 segundo, o navegador faz uma requisição para o servidor
+    </script>
+</body>
+</html>
