@@ -1,0 +1,17 @@
+Google Analytics é uma ferramenta gratuita do Google que fornece informações valiosas sobre o tráfego do seu site. Ele ajuda a entender como as pessoas chegam até o seu site, o que elas fazem quando estão lá e como elas saem. Isso pode ajudar a identificar quais conteúdos são mais populares, quais páginas estão tendo mais problemas e quais campanhas de marketing estão sendo mais eficazes. Além disso, o Google Analytics também fornece dados demográficos sobre os visitantes do seu site, como sua localização, idade e gênero, o que pode ajudar a compreender melhor o seu público e a segmentá-lo de maneira mais precisa.
+
+A importância do Google Analytics é que ele fornece informações valiosas sobre o desempenho do seu site, permitindo que você faça ajustes e melhorias para aumentar o tráfego e as conversões. Ele também permite que você acompanhe o ROI (retorno sobre investimento) das suas campanhas de marketing, o que é particularmente importante se você estiver investindo em anúncios pago. Em resumo, o Google Analytics é uma ferramenta indispensável para qualquer pessoa ou empresa que tenha um site e queira entender como ele está sendo usado e como pode ser melhorado.
+
+Para adicionar o Google Analytics ao seu site, primeiro você precisa criar uma conta do Google Analytics. Isso pode ser feito gratuitamente no site do Google Analytics. Depois de criar uma conta e fazer login, você precisará seguir as seguintes etapas:
+
+1 - Clique em "Admin" na barra de navegação do topo.
+2 - Em "Propriedade", selecione "Criar uma nova propriedade"
+3 - Insira as informações do seu site, como nome e URL.
+4 - Selecione "Aceitar os termos de serviço" e clique em "Criar".
+5 - Será gerado um código de acompanhamento do Google Analytics. Copie esse código.
+6 - Abra o código-fonte do seu site e cole o código de acompanhamento antes da tag de fechamento "</head>".
+7 - Salve as alterações e carregue o seu site para verificar se o código de acompanhamento está funcionando corretamente.
+
+Se você estiver usando uma plataforma de gerenciamento de conteúdo, como o WordPress, poderá instalar um plugin do Google Analytics para adicionar o código de acompanhamento automaticamente. Além disso, muitas plataformas de construção de sites, como o Wix, têm integração nativa com o Google Analytics, permitindo que você adicione facilmente a ferramenta à sua conta.
+
+https://analytics.google.com/analytics/web/provision/#/provision/create

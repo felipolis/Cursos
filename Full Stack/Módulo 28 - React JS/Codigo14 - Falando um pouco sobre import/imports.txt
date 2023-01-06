@@ -1,0 +1,34 @@
+Em um arquivo JavaScript em um projeto React, o export default é usado para exportar apenas um componente ou uma função por arquivo. Ele é usado quando você deseja exportar algo de um arquivo, mas não deseja usar o mesmo nome para o import em outro arquivo. Por exemplo:
+
+// MyComponent.js
+import React from 'react';
+
+function MyComponent() {
+  return <div>Hello World!</div>;
+}
+
+export default MyComponent;
+
+
+Para importar o componente MyComponent em outro arquivo, você pode usar o seguinte código:
+
+import MyComponent from './MyComponent';
+
+
+O export default também permite que você importe o componente usando um nome diferente, como por exemplo:
+
+import MyComp from './MyComponent';
+
+
+Por outro lado, o export normal é usado quando você deseja exportar múltiplos componentes ou funções de um arquivo. Por exemplo:
+
+// utils.js
+export const add = (a, b) => a + b;
+export const subtract = (a, b) => a - b;
+export const multiply = (a, b) => a * b;
+export const divide = (a, b) => a / b;
+
+
+Para importar essas funções em outro arquivo, você deve usar o import com o nome das funções entre chaves:
+
+import { add, subtract, multiply, divide } from './utils';

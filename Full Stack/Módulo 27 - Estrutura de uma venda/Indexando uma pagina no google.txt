@@ -1,0 +1,9 @@
+Para ajudar a garantir que uma página do seu site seja indexada pelo Google usando o Google Search Console, siga os seguintes passos:
+
+1 - Acesse o Google Search Console e faça login com a sua conta do Google.
+2 - Selecione o site que você deseja gerenciar na lista de propriedades.
+3 - Clique em "Inspecionar" na barra de navegação do topo.
+4 - Digite o URL da página que você deseja indexar e clique em "Inspecionar".
+5 - Se a página já estiver sendo rastreada pelo Google, ela aparecerá na lista de resultados. Se não estiver, você pode clicar em "Solicitar indexação" para solicitar que o Google rastreie a página.
+
+Lembre-se de que o processo de indexação do Google pode levar algum tempo, por isso é importante ser paciente e continuar trabalhando para melhorar o seu site. Se você seguir essas dicas, as chances de suas páginas serem indexadas pelo Google aumentarão significativamente.

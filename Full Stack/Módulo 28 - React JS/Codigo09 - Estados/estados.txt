@@ -1,0 +1,3 @@
+Em React, os estados são valores que podem ser modificados pelo componente e que influenciam o comportamento e a renderização do componente. Eles são geralmente usados ​​para armazenar informações que mudam dinamicamente no componente, como por exemplo, o input de um formulário ou o estado de uma tarefa.
+
+Os estados são declarados como propriedades do componente e podem ser acessados ​​através do this.state. Eles podem ser modificados com o método this.setState(), que atualiza o estado do componente e causa a re-renderização do componente e de seus filhos.

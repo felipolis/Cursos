@@ -1,0 +1,34 @@
+User-agent: Googlebot
+Disallow:
+
+User-agent: Bingbot
+Disallow: /
+
+User-agent: *
+Disallow: /admin
+Disallow: /images
+Allow: /images/logo.png
+
+
+
+---------------------------------------- Explicação ----------------------------------------
+O arquivo robots.txt é um arquivo que pode ser usado para indicar aos motores de busca quais páginas ou seções de um site devem ou não devem ser rastreadas. Isso é útil se você tiver partes do seu site que não deseja que sejam incluídas nos resultados da pesquisa, como páginas de teste ou conteúdo antigo que já não é relevante.
+
+Para utilizar o arquivo robots.txt, basta colocá-lo na raiz do seu site e adicionar instruções para os motores de busca. Por exemplo, você poderia usar a linha "Disallow: /secret-page" para impedir que a página "secret-page" fosse rastreada pelos motores de busca. É importante notar que o arquivo robots.txt não é um método seguro para impedir o acesso a conteúdo e os motores de busca podem ignorar as instruções nele contidas. Ele deve ser usado apenas como uma indicação para os motores de busca e não como uma medida de segurança confiável.
+
+A sintaxe para o arquivo robots.txt é bastante simples e consiste em um conjunto de instruções para os motores de busca. Cada instrução é composta por um comando de ação seguido por um caminho de URL.
+
+Aqui estão alguns exemplos de comandos que você pode usar no arquivo robots.txt:
+
+    Disallow: indica aos motores de busca para não rastrear a página especificada. Por exemplo, "Disallow: /secret-page" impediria que a página "secret-page" fosse rastreada.
+
+    Allow: indica aos motores de busca que é permitido rastrear a página especificada, mesmo se um comando "Disallow" tiver sido especificado para um caminho de URL mais amplo. Por exemplo, "Disallow: /" impediria que qualquer página do site fosse rastreada, mas "Allow: /secret-page" permitiria que a página "secret-page" fosse rastreada mesmo assim.
+
+    User-agent: especifica para qual robô o comando seguinte se aplica. Por exemplo, "User-agent: Googlebot" faria com que o comando seguinte se aplicasse apenas ao robô do Google.
+
+Aqui está um exemplo de um arquivo robots.txt básico:
+
+    User-agent: *
+    Disallow: /secret-page
+
+Este arquivo indicaria a todos os motores de busca para não rastrear a página "secret-page". É importante notar que os comandos do arquivo robots.txt são apenas sugestões para os motores de busca e eles podem ignorá-los se desejarem.

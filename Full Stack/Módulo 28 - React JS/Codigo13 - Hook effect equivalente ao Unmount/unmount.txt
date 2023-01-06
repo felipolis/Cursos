@@ -1,0 +1,25 @@
+O useEffect do React também pode ser usado para executar uma limpeza quando um componente é desmontado. Para fazer isso, basta retornar uma função do seu efeito que será chamada quando o componente for desmontado. Por exemplo:
+
+useEffect(() => {
+  // Execute o efeito aqui
+
+  // Limpeza quando o componente for desmontado
+  return () => {
+    // Execute a limpeza aqui
+  }
+}, [])
+
+A função de limpeza é útil para cancelar assinaturas ou limpar recursos que não são mais necessários quando o componente é desmontado. Por exemplo, se você tiver uma assinatura de evento em um elemento DOM, poderá usar a função de limpeza para cancelar a assinatura quando o componente é desmontado para evitar vazamentos de memória.
+
+Você também pode usar a função de limpeza para atualizar o estado do componente antes de ele ser desmontado. Por exemplo:
+
+useEffect(() => {
+  // Execute o efeito aqui
+
+  // Limpeza quando o componente for desmontado
+  return () => {
+    // Atualize o estado do componente aqui
+  }
+}, [])
+
+Isso é semelhante ao método componentWillUnmount de componentes de classe, que é chamado quando um componente é desmontado. No entanto, ao contrário do componentWillUnmount, a função de limpeza do useEffect só é chamada se o componente for realmente desmontado, o que pode otimizar o desempenho do aplicativo em alguns casos.

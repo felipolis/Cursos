@@ -1,0 +1,32 @@
+O useEffect do React é uma função que permite que você execute efeitos colaterais em seus componentes de React. Ele é chamado em cada renderização do componente, mas você pode controlar quando os efeitos são executados, adicionando uma segunda lista de dependências como parâmetro. Você pode usar o useEffect de três maneiras:
+
+1 - Executar um efeito apenas uma vez, quando o componente é montado:
+
+useEffect(() => {
+  // Execute o efeito aqui
+}, [])
+
+
+2 - Executar um efeito sempre que uma determinada variável é atualizada:
+
+useEffect(() => {
+  // Execute o efeito aqui
+}, [variavel])
+
+
+3 - Executar um efeito sempre que o componente é renderizado:
+
+useEffect(() => {
+  // Execute o efeito aqui
+})
+
+
+
+Antes do useEffect, os desenvolvedores de React geralmente usavam os métodos de ciclo de vida componentDidMount e componentDidUpdate para executar efeitos colaterais em componentes. A primeira forma de usar o useEffect, que executa um efeito apenas uma vez quando o componente é montado, é semelhante ao componentDidMount. A segunda forma, que executa um efeito sempre que uma determinada variável é atualizada, é semelhante ao componentDidUpdate. A terceira forma, que executa um efeito sempre que o componente é renderizado, é semelhante ao componentDidUpdate com uma comparação de propriedades anterior e atual sempre retornando true.
+
+A principal diferença é que o useEffect é mais flexível e pode ser usado em qualquer lugar em um componente de React, enquanto os métodos de ciclo de vida só podem ser usados em componentes de classe. Além disso, o useEffect permite que você especifique uma lista de dependências, o que significa que o efeito só será executado quando as dependências forem alteradas. Isso é útil para evitar efeitos desnecessários e otimizar o desempenho do aplicativo.
+
+
+
+
+OBS. https://blog.bitsrc.io/react-v18-0-useeffect-bug-why-do-effects-run-twice-39babecede93

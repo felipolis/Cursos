@@ -1,0 +1,15 @@
+SEO (Search Engine Optimization) é a sigla para otimização para mecanismos de busca. Trata-se de uma técnica que visa melhorar a posição de um site nos resultados orgânicos (gratuitos) dos mecanismos de busca, como o Google.
+
+Para exemplificar, vamos imaginar que você é dono de uma loja de roupas online e quer que o seu site apareça nas primeiras posições do Google quando as pessoas procurarem por "roupas femininas". Para isso, você pode utilizar o SEO para otimizar o seu site de diversas maneiras, como:
+
+Utilizar as palavras-chave "roupas femininas" de maneira estratégica nos títulos, descrições e conteúdo das páginas do seu site;
+
+Utilizar técnicas de otimização de imagens, como dar nomes relevantes às imagens e utilizar tags "alt";
+
+Utilizar tags "h1" e "h2" para destacar os títulos e subtítulos das páginas;
+
+Criar links internos e externos relevantes para o seu site.
+
+A importância das palavras-chave certas no SEO é fundamental, pois elas ajudam os mecanismos de busca a entender do que trata o seu site e, assim, classificá-lo de maneira mais precisa nos resultados de busca. Além disso, é muito importante que o seu site esteja entre os primeiros resultados da página de resultados de um mecanismo de busca (também conhecida como "SERP", sigla em inglês para Search Engine Results Page). Isso porque a maioria das pessoas não vai além da primeira página de resultados e, portanto, um site que aparece nas primeiras posições tem mais chances de receber visitas qualificadas.
+
+Em resumo, o SEO é uma técnica que visa melhorar a posição de um site nos resultados orgânicos dos mecanismos de busca. Ele é importante porque ajuda os mecanismos de busca a entender do que trata o seu site e, assim, classificá-lo de maneira mais precisa. Além disso, um site que aparece nas primeiras posições da página de resultados de um mecanismo de busca tem mais chances de receber visitas qualificadas.
