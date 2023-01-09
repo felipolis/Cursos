@@ -1,0 +1,11 @@
+A estrutura básica de uma aplicação Redux é a seguinte:
+
+Store: O store é o coração do Redux. Ele é responsável por armazenar o estado da aplicação e expor uma API para ler o estado da aplicação ou atualizá-lo. O store é criado passando uma função chamada "reducer" para ele. O reducer é uma função que toma o estado atual e uma ação como entrada e produz um novo estado como saída.
+
+Action: As ações são objetos JavaScript que descrevem uma mudança no estado da aplicação. Elas são criadas pelos componentes da aplicação ou por outras partes da aplicação e são enviadas para o store para atualizar o estado.
+
+Reducer: Os reducers são funções que tomam o estado atual e uma ação como entrada e produzem um novo estado como saída. Eles são responsáveis por atualizar o estado da aplicação de acordo com as ações enviadas para o store.
+
+Component: Os componentes são a parte da aplicação que o usuário final vê e interage. Eles são responsáveis por exibir os dados e gerenciar a interação do usuário com a aplicação. Os componentes podem ler o estado da aplicação a partir do store e também podem enviar ações para o store para atualizar o estado.
+
+Isso é a estrutura básica do Redux. No entanto, o Redux também inclui alguns outros conceitos, como middlewares, que podem ser usados para estender o comportamento do store de várias maneiras, como adicionar suporte a ações assíncronas. Além disso, o Redux trabalha bem com o React, uma biblioteca de interface do usuário popular, e existem muitas bibliotecas e ferramentas que facilitam a integração do Redux com o React.
