@@ -1,0 +1,3 @@
+O Electron é um framework para criar aplicativos de desktop multiplataforma usando tecnologias web. Ele permite que você crie aplicativos de desktop usando HTML, CSS e JavaScript, assim como você faria para criar um site. Ele é baseado em duas outras tecnologias: o Chromium, que é o motor de renderização de páginas usado pelo Google Chrome, e o Node.js, que é uma plataforma para criar aplicativos de rede e outras aplicações de lado do servidor usando JavaScript.
+
+Alguns programas famosos que foram criados com o Electron incluem o Visual Studio Code, o Slack, o Discord e o GitHub Desktop.
