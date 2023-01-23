@@ -1,0 +1,4 @@
+Extenções do VS Code:
+
+- Vue Language Features (Volar)
+- Vue 3 Snippets
