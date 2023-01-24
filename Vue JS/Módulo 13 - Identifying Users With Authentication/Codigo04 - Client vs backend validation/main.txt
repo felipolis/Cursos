@@ -1,0 +1,9 @@
+Fazer validações de usuário tanto no front-end quanto no back-end é importante por várias razões:
+
+A validação no front-end ajuda a garantir que o usuário forneça dados válidos antes de enviá-los para o servidor. Isso pode economizar tempo e recursos do servidor, já que ele não precisa lidar com dados inválidos.
+
+A validação no back-end é importante para garantir a segurança do aplicativo. Dado que os dados são enviados para o servidor, ele precisa ser capaz de detectar e rejeitar dados maliciosos ou inválidos.
+
+A validação tanto no front-end quanto no back-end ajuda a garantir a qualidade dos dados armazenados. Isso é especialmente importante em aplicativos que trabalham com dados críticos, como sistemas financeiros ou de saúde.
+
+A validação em ambos os lados também ajuda a garantir uma melhor experiência do usuário, dado que ele é informado sobre erros e pode corrigi-los antes de prosseguir.

@@ -1,0 +1,3 @@
+- No supabase, crie um database com as colunas username e email dos tipos TEXT
+
+- Desabilite o RLS
