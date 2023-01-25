@@ -1,0 +1,5 @@
+1 - Supabase
+2 - database
+3 - new table followers_following (img1)
+4 - link o follower_id e o following_id a tabela users
+5 - save

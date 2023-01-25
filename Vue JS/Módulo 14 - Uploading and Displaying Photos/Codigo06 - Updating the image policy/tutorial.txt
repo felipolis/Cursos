@@ -1,0 +1,8 @@
+1 - Supabase
+2 - Storage
+3 - Policies
+4 - New policy
+5 - for full customization
+6 - Habilite as permissoes, como no print
+7 - preview
+8 - save policy

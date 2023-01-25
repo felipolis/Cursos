@@ -1,0 +1,4 @@
+1 - database
+2 - new table (img1)
+3 - linkar a coluna owner_id com o id da tabela de users (img2)
+4 - salvar
