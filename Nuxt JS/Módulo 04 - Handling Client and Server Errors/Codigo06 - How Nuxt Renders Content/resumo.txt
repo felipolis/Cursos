@@ -1,0 +1,11 @@
+O Nuxt é um framework de desenvolvimento web baseado no Vue.js que permite a criação de aplicativos web universais (universal web applications), que podem ser renderizados tanto no servidor quanto no cliente.
+
+Para entender melhor como o Nuxt funciona, é útil entender a diferença entre server-side rendering (SSR), client-side rendering (CSR) e universal rendering (também conhecido como isomorphic rendering).
+
+Server-side rendering (SSR): Quando um aplicativo web é renderizado no lado do servidor, isso significa que o servidor envia uma resposta HTML completa para o cliente, em vez de enviar apenas o código JavaScript. Isso é útil porque o cliente pode ver o conteúdo da página mais rapidamente, enquanto o código JavaScript está sendo baixado e executado no background. Além disso, o SSR pode melhorar o SEO (Search Engine Optimization) de um site, já que os motores de busca podem indexar facilmente o conteúdo da página.
+
+Client-side rendering (CSR): Quando um aplicativo web é renderizado no lado do cliente, isso significa que o servidor envia apenas o código JavaScript para o cliente, e a renderização do conteúdo é feita no navegador do cliente. Isso permite uma maior interatividade do usuário, pois a página pode ser atualizada sem precisar recarregar a página inteira. No entanto, o tempo de carregamento inicial pode ser mais longo, já que o código JavaScript precisa ser baixado e executado no navegador do cliente antes que a página possa ser exibida.
+
+Universal rendering (também conhecido como isomorphic rendering): O universal rendering combina os benefícios do SSR e CSR, permitindo que um aplicativo web seja renderizado tanto no lado do servidor quanto no lado do cliente. Isso significa que o servidor envia uma resposta HTML completa para o cliente quando a página é carregada pela primeira vez, permitindo que o cliente veja o conteúdo mais rapidamente. Em seguida, o código JavaScript é baixado e o cliente assume o controle da renderização, permitindo uma interatividade mais rápida e suave.
+
+O Nuxt suporta todos esses tipos de renderização, permitindo que os desenvolvedores escolham a opção que melhor atende às necessidades do seu aplicativo. Além disso, o Nuxt oferece outras funcionalidades, como o pré-carregamento de páginas, que ajuda a melhorar a experiência do usuário em aplicativos web universais.
